@@ -1,0 +1,342 @@
+:root {
+    --primary: #DCA7A3; /* Soft dusty rose */
+    --accent: #FFE5D2; /* Creamy blush */
+    --highlight: #816269; /* Deep mauve-gray */
+    --background: #FFE5D2;
+    --nav-color: #DCA7A3;
+    --header-color: #7c646a;
+    --white: #ffffff;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'EB Garamond', serif;
+    background: var(--background);
+    color: var(--primary);
+    line-height: 1.7;
+  }
+  
+  header {
+    background: var(--header-color);
+    color: var(--white);
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 0.5rem;
+    font-size: 2.8rem;
+    font-weight: 400;
+  }
+  
+  header p {
+    font-size: 1.4rem;
+    font-style: normal;
+  }
+  
+  nav {
+    background: var(--nav-color);
+    padding: 1rem 0;
+    position: relative;
+    top: 0;
+    z-index: 1000;
+    font-size: 1.1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  nav a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: var(--highlight);
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+  }
+  
+  .section {
+    margin-bottom: 3rem;
+    background-color: var(--white);
+    border-radius: 0px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .section:hover {
+    transform: translateY(-5px);
+  }
+  
+  .section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--highlight);
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+  }
+  
+  .section p {
+    font-size: 1.15rem;
+  }
+  
+  .section p a {
+    color: var(--primary);
+    text-decoration: underline;
+  }
+  
+  .me-image {
+    max-width: 220px;
+    height: auto;
+    display: block;
+    margin: 0 auto 1.5rem auto;
+    box-shadow: -15px 15px 0 rgba(0, 60, 77, 0.15);
+    border-radius: 6px;
+  }
+  
+  footer {
+    background: var(--primary);
+    color: var(--white);
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 0.9rem;
+  }
+  
+  .section-title-centered {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    color: var(--highlight);
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+  }
+  
+  .about-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+  
+  .about-layout .me-image {
+    width: 220px;
+    height: auto;
+    flex-shrink: 0;
+    box-shadow: -15px 15px 0 rgba(0, 60, 77, 0.15);
+    border-radius: 0;
+  }
+  
+  .about-text {
+    flex: 1;
+    min-width: 280px;
+    color: #7c646a;
+  }
+  .research-entry {
+    background: var(--white);
+    padding: 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+    color: var(--highlight);
+  }
+  
+  .research-entry:hover {
+    transform: translateY(-5px);
+  }
+  
+  .research-entry h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: var(--highlight);
+  }
+  
+  .research-images {
+    max-width: 100%;
+    display: block;
+    margin: 1.5rem auto;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .image-container img {
+    max-width: 48%;
+    height: auto;
+  }
+  
+  .section-title-centered {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    color: var(--highlight);
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+  }
+  .section-header {
+    text-align: center;
+    margin: 3rem 0 2rem;
+  }
+  
+  .section-header h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2rem;
+    color: var(--highlight);
+    margin-bottom: 0.5rem;
+  }
+  
+  .section-header hr {
+    width: 100px;
+    height: 2px;
+    background-color: var(--highlight);
+    border: none;
+    margin: 0 auto;
+  }
+  .section-banner {
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: 'Libre Baskerville', serif;
+    color: var(--white);
+    background-color: var(--highlight);
+    padding: 0.75rem 1.5rem;
+    margin: 3rem 0 2rem;
+    border-left: 10px solid var(--primary);
+  }
+  .decorative-header {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2rem;
+    color: var(--highlight);
+    text-align: center;
+    position: relative;
+    margin: 3rem 0 2rem;
+  }
+  
+  .decorative-header::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: var(--primary);
+    margin: 0.75rem auto 0;
+  }
+  a {
+    color: var(--primary);
+    text-decoration: underline;
+  }
+  
+  .news-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .news-list li {
+    margin-bottom: 1.5rem;
+    padding-left: 0.5rem;
+    border-left: 4px solid var(--highlight);
+  }
+  
+  .news-date {
+    display: block;
+    font-weight: 600;
+    color: var(--highlight);
+    margin-bottom: 0.25rem;
+  }
+  .highlight-box {
+ 
+    padding-left: 16px;
+    margin: 24px 0;
+  }
+  
+  .link-card {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 600px;
+    margin-top: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    background: white;
+  }
+  
+  .link-thumbnail {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .link-content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .link-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0074cc;
+    text-decoration: none;
+  }
+  
+  .link-title:hover {
+    text-decoration: underline;
+  }
+  
+  .link-source {
+    color: #888;
+    font-size: 0.85rem;
+  }
+
+  ul.link-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 2rem 0;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.2rem;
+    color: var(--highlight);
+  }
+  
+  ul.link-list li {
+    margin-bottom: 0.75rem;
+  }
+  
+  /* Force link color to match your theme */
+  ul.link-list li a {
+    color: var(--highlight) !important;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s;
+  }
+  
+  ul.link-list li a:hover {
+    border-bottom: 1px solid var(--highlight);
+  }
+  
+  
+ 
+    

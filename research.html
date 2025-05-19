@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Research Experiences</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet" />
+<!-- External stylesheet -->
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+  <header>
+    <h1>Emily M. Foley</h1>
+    <p>Applied Mathematics PhD Student at the University of Arizona</p>
+  </header>
+
+  <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="outreach.html">Outreach</a></li>
+        <li><a href="files/Emily_Foley_CV.pdf" target="_blank">CV</a></li>
+        <li><a href="interests.html">Personal Interests</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="section-header">
+        <h2>Undergraduate Research Projects</h2>
+        <hr />
+      </div>      
+    <div class="research-entry">
+        <h2>NSF REU at the University of Minnesota</h2>
+        <h3 class="project-subheader">Population-Based Simulations of Gravitational Wave Signals for future LIGO Observing Runs </h3>
+        <p>
+          Gravitational wave (GW) signals detected by LIGO are sometimes accompanied by optical counterpart signals known as kilonovae 
+          emitted from the same binary merger event. These kilonovae are the primary source of heavy element production in the universe, yet they are only 
+          bright enough to observe for a short time. It is therefore important to optimize valuable telescope time when searching for these counterpart signals 
+          by assessing their ability to detect and localize events. During my REU, I generated “observing scenarios” to simulate the detection and localization 
+          of GW signals. Using an advanced population model, I created approximately 10,000 monte carlo simulated GW signals and modeled the brightness of their 
+          optical counterpart signals over time with the multidimensional monte carlo radiative transfer code POSSIS. I then used LIGO’s dedicated data grid for 
+          analyzing large volumes of GW data to ​provide realistic constraints for detection rates, localization areas, and effectiveness of different instruments 
+          in tracking GW events. We found that more kilonovae resulting from binary neutron star and neutron star black hole mergers were expected to be found in 
+          the third LIGO observing run, which began in 2023, compared to the first two runs. These results were published in the Astrophysical journal: 
+          <a href="https://iopscience.iop.org/article/10.3847/1538-4357/acfcb1" class="text-sm-bold">DOI 10.3847/1538-4357/acfcb1</a>
+        </p>
+        <div class="image-container">
+          <img src="images/skymap.png" loading="lazy"/>
+          <img src="images/reu.png" loading="lazy"/>
+        </div>
+      </div>
+
+    <div class="research-entry">
+      <h2>Senior Honors Thesis – Mathematics</h2>
+      <h3 class="project-subheader">Spatiotemporal Chaos in the Damped-Driven Sine Gordon Equation </h3>
+      <p>
+        For my undergraduate thesis in mathematics, I studied the dynamics of the Sine Gordon Equation, a well known nonlinear hyperbolic partial differential
+        equation that models a classical wave coupled with simple pendulum motion. The aperiodic late time behavior of stationary solutions to
+        the damped driven sine gordon equation were of particular interest to me. When damping
+        and forcing are present, solutions exhibit aperiodic late time behavior that is sensitive to initial conditions, which are signatures of spatiotemporal chaos. To visualize regimes in phase space where the system exhibits chaotic behavior, I numerically computed millions of Lyapunov exponents, which quantify the separation rate of perturbed
+        solutions as exponential functions.
+      </p>
+      <img src="images/sg.png" class="research-images" loading="lazy" />
+    </div>
+  
+    <div class="research-entry">
+      <h2>Senior Honors Thesis – Physics</h2>
+      <h3 class="project-subheader">Investigating the Unruh State for a Massless Scalar Field in 4D Schwarzschild-de Sitter Space </h3>
+      <p>
+        For my undergraduate physics thesis, I studied quantum effects related to the Hawking effect in 4D Schwarzschild-de Sitter space. I looked at the late time behavior of mode functions that are solutions to the Klein-Gordon equation for a massless scalar quantum field beyond the cosmological horizon in the cosmological region. In particular, I looked at modes in the Boulware and Unruh states. I found that for a black hole with event horizon of radius 1/10, the contribution to the Hawking effect from modes on the cosmological horizon dominates over modes originating from the black hole event horizon.
+      </p>
+      <img src="images/kruskal.png" class="research-images" loading="lazy"/>
+    </div>
+  
+    <div class="research-entry">
+      <h2>Summer Undergraduate Laboratory Internship at Los Alamos National Lab</h2>
+      <h3 class="project-subheader">Space charge distortion mapping in the ProtoDUNE Detector</h3>
+      <p>
+        During the summer of 2023, I participated in a SULI internship funded by the U.S. Department of Energy at Los Alamos National Laboratory mentored by Sowjanya Gollapinni. I worked on a project for the Deep Underground Neutrino Experiment (DUNE), an upcoming large scale physics experiment for the detection of neutrinos. I developed correction maps for the distortion of the electric field within a prototype of the DUNE experiment from Monte Carlo simulation data of space charge distortions.
+      </p>
+      <img src="images/dune.png" class="research-images" loading="lazy"/>
+    </div>
+  
+  </main>
+  
+</body>
+</html>

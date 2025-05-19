@@ -5,108 +5,8 @@
   <title>Personal Interests | Emily M. Foley</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet" />
-  <style>
-    :root {
-      --primary: #DCA7A3;
-      --accent: #FFE5D2;
-      --highlight: #8C6A73;
-      --background: #FFE5D2;
-      --nav-color: #DCA7A3;
-      --header-color: #8C6A73;
-      --white: #ffffff;
-    }
+  <link rel="stylesheet" href="assets/css/style.css">
 
-    body {
-      margin: 0;
-      font-family: 'EB Garamond', serif;
-      background: var(--background);
-      color: var(--highlight);
-      line-height: 1.7;
-    }
-
-    nav {
-      background: var(--nav-color);
-      padding: 1rem 0;
-      font-size: 1.1rem;
-    }
-
-    nav ul {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    nav a {
-      text-decoration: none;
-      color: var(--white);
-      font-weight: 600;
-    }
-
-    nav a:hover {
-      color: var(--highlight);
-    }
-
-    header {
-      background-color: var(--header-color);
-      color: var(--white);
-      padding: 3rem 1rem;
-      text-align: center;
-    }
-
-    header h1 {
-      font-family: 'Libre Baskerville', serif;
-      font-size: 2.5rem;
-      font-weight: 400;
-      margin: 0;
-    }
-
-    .container {
-      max-width: 960px;
-      margin: 2rem auto;
-      padding: 0 1.5rem;
-    }
-
-    .descriptions-background {
-      background-color: var(--white);
-      padding: 2rem;
-      border-radius: 0;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-      margin-bottom: 3rem;
-    }
-
-    .descriptiontitles {
-      font-family: 'Libre Baskerville', serif;
-      font-size: 1.3rem;
-      font-weight: 400;
-      color: var(--highlight);
-      text-align: center;
-      margin-top: 0;
-    }
-
-    .descriptions {
-      font-size: 1.1rem;
-      margin-top: 1rem;
-      margin-bottom: 1.5rem;
-      text-align: justify;
-    }
-
-    .image-grid {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 1rem;
-      margin-top: 1rem;
-    }
-
-    .image-grid img {
-      max-width: 45%;
-      height: auto;
-      border-radius: 4px;
-    }
-  </style>
 </head>
 <body>
 
@@ -128,45 +28,51 @@
 
   
   <main class="container">
-    <div class="descriptions-background">
-      <p class="descriptiontitles text-md text-center">My Cat!</p>
-      <p class="descriptions">
-        I enjoy spending time with my 3 year old Siamese cat, Lucy. I adopted her in April 2025 from Claws and Paws Rescue in Tucson!
-      </p>
-      <div class="image-grid">
-        <img src="images/lucy1.jpg" loading="lazy" width="200"/>
-
-        <img src="images/lucy6.jpg" loading="lazy" width="200" />
-        <img src="images/lucy4.jpg" loading="lazy" width="200"/>
-        <img src="images/lucy5.jpg" loading="lazy" width="200" />
-      </div>
-      
-    </div>
-
-    <div class="descriptions-background">
-        <p class="descriptiontitles text-md text-center">Raising Monarch Butterflies</p>
-        <p class="descriptions">
-            Since I was 7 years old I have been raising Monarch butterflies, 
-            a hobby inspired by my uncle. I've always been fascinated with their life
-            cycle and their striking black and orange wings. The monarch butterfly population has 
-            been on the decline since the 90s, and the U.S Fish & Wildlife Service 
-            has proposed to list them as a threatened species. Public participation 
-            in conservation efforts is very imporant to save the butterflies, and 
-            it is as easy as raising a few 
-            caterpillars in your backyard!</p>
-        <p class="descriptions">Here are some resources to learn more about Monarchs and raising Monarch caterpillars!
- <ul class="link-list">
-  <li><a href="https://monarchwatch.org/rear/">Raising Monarchs</a></li>
-  <li><a href="https://www.fws.gov/initiative/pollinators/save-monarch">Monarch Conservation Efforts</a></li>
-  <li><a href="https://monarchjointventure.org/monarch-biology/life-cycle">About the Monarch Life Cycle</a></li>
-
-
+        
+    <div class="research-entry">
+        <h2 class="section-title-centered">My Cat!</h2>
+        <p>
+          I enjoy spending time with my 3 year old Siamese cat, Lucy. I adopted her in April 2025 from Claws and Paws Rescue in Tucson!
         </p>
         <div class="image-grid">
-          <img src="images/caterpillar1.jpg " loading="lazy" width="200"/>
-          <img src="images/bigcat.jpg " loading="lazy" width="200" />
+          <img src="images/lucy1.jpg" loading="lazy" />
+          <img src="images/lucy2.jpg" loading="lazy" />
+          <img src="images/lucy6.jpg" loading="lazy" />
+          <img src="images/lucy4.jpg" loading="lazy" />
+          <img src="images/lucy5.jpg" loading="lazy" />
         </div>
-        
+      </div>
+    
+      <div class="research-entry">
+        <h2 class="section-title-centered">Raising Monarch Butterflies</h2>
+        <p>
+          Since I was 7 years old I have been raising Monarch butterflies, 
+          a hobby inspired by my uncle. I've always been fascinated with their life
+          cycle and their striking black and orange wings. The monarch butterfly population has 
+          been on the decline since the 90s, and the U.S Fish & Wildlife Service 
+          has proposed to list them as a threatened species. Public participation 
+          in conservation efforts is very important to save the butterflies, and 
+          it is as easy as raising a few caterpillars in your backyard!
+        </p>
+        <p>Here are some resources to learn more about Monarchs and raising Monarch caterpillars:</p>
+        <ul class="link-list">
+          <li><a href="https://monarchwatch.org/rear/">Raising Monarchs</a></li>
+          <li><a href="https://www.fws.gov/initiative/pollinators/save-monarch">Monarch Conservation Efforts</a></li>
+          <li><a href="https://monarchjointventure.org/monarch-biology/life-cycle">About the Monarch Life Cycle</a></li>
+        </ul>
+        <div class="image-grid">
+          <img src="images/caterpillar1.jpg" loading="lazy" />
+          <img src="images/cat1.jpeg" loading="lazy" />
+          <img src="images/cat5.jpeg" loading="lazy" />
+          <img src="images/cat3.jpeg" loading="lazy" />
+          <img src="images/cat7.jpeg" loading="lazy" />
+          <img src="images/bigcat.jpg" loading="lazy" alt="Monarch caterpillars eating milkweed"/>
+        </div>
+        <div class="image-grid">
+            <img src="images/male.jpeg" loading="lazy" />
+            <img src="images/male1.jpeg" loading="lazy" />
+            <img src="images/female.jpeg" loading="lazy" />
+          </div>
       </div>
 
       <div class="descriptions-background">

@@ -363,18 +363,18 @@
   }
   
  
-  .profile-image-container {
-    box-shadow: -2rem 2rem 0 rgba(0, 60, 77, 0.15);
-    margin: 0 2rem 4rem 2.5rem;
+  .image-wrapper {
+    margin: 1rem 2rem 2rem 2rem; /* dynamic spacing around the image */
     flex-shrink: 0;
   }
   
-  .profile-image {
+  .profile-img-shadowed {
     max-width: 100%;
     width: 100%;
     max-width: 300px;
     height: auto;
     display: block;
     border-radius: 0px;
+    box-shadow: -2rem 2rem 0 rgba(0, 60, 77, 0.15); /* now tightly wraps the image */
   }
   

@@ -363,21 +363,5 @@
   }
   
  
-  .profile-image-container {
-    padding: 0.5rem 2rem 1.5rem 2rem;
-                    /* Adds left/right breathing room */
-    margin: 0 0 0 0;       /* Vertical spacing + center on mobile */
-    text-align: center;                  /* Center the image */
-  }
-  
-  .profile-image {
-    width: 100%;
-    max-width: 300px;                    /* Don't exceed this size */
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    box-shadow: -2rem 2rem 0 rgba(0, 60, 77, 0.15);
-    border-radius: 0px;                  /* Optional: adds softness */
-  }
   
   

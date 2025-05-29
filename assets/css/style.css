@@ -390,19 +390,29 @@ background-repeat: repeat;
 }
 
 .image-wrapper {
-  padding-left: 1em; /* adds left space including shadow */
+  padding-left: 1em;
 }
 
 .shadow-box {
   box-shadow: -1em 1em 0 rgba(0, 60, 77, 0.15);
   flex-shrink: 0;
   display: inline-block;
-  max-width: 300px; /* constrain image+shadow size */
+  max-width: 100%; /* ✅ prevent overflow */
 }
 
 .shadow-box img {
-  width: 100%;   /* fill container */
+  width: 100%;       /* ✅ responsive scaling */
+  max-width: 300px;  /* ✅ limits size on desktop */
   height: auto;
   display: block;
 }
 
+
+@media (max-width: 600px) {
+  .image-wrapper {
+    padding-left: 1em;
+  }
+  .shadow-box img {
+    max-width: 90vw;
+  }
+}

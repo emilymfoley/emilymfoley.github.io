@@ -389,4 +389,20 @@ background-repeat: repeat;
   transition: transform 0.3s ease; /* Optional: smooth scaling effect */
 }
 
-  
+.image-wrapper {
+  padding-left: 1em; /* adds left space including shadow */
+}
+
+.shadow-box {
+  box-shadow: -1em 1em 0 rgba(0, 60, 77, 0.15);
+  flex-shrink: 0;
+  display: inline-block;
+  max-width: 300px; /* constrain image+shadow size */
+}
+
+.shadow-box img {
+  width: 100%;   /* fill container */
+  height: auto;
+  display: block;
+}
+

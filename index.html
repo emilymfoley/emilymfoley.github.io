@@ -93,20 +93,24 @@
 
   </main>
 
-  <footer>
-    <p>&copy; 2025 Emily M. Foley | University of Arizona</p>
-    <p>Last updated: <span id="last-updated"></span></p>
-  </footer>
+  <div id="site-footer"></div>
 
-  <script>
-    const updated = new Date(document.lastModified);
-    const monthNames = [
-      "January", "February", "March", "April", "May", "June",
-      "July", "August", "September", "October", "November", "December"
-    ];
-    const formatted = `${monthNames[updated.getMonth()]} ${updated.getFullYear()}`;
-    document.getElementById("last-updated").textContent = formatted;
-  </script>
+<script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(html => {
+      document.getElementById("site-footer").innerHTML = html;
+
+      const updated = new Date(document.lastModified);
+      const monthNames = [
+        "January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
+      ];
+      const formatted = `${monthNames[updated.getMonth()]} ${updated.getFullYear()}`;
+      document.getElementById("last-updated").textContent = formatted;
+    });
+</script>
+
 
 </body>
 </html>

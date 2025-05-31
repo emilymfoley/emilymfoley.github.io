@@ -40,6 +40,18 @@
   width: 8.5em;
   height: auto;
 }
+@media (max-width: 600px) {
+  .header-logo-fixed {
+    width: 40px;
+    top: 1rem;
+    left: 1rem;
+  }
+
+  header {
+    padding-top: 5rem; /* Push content below the logo */
+  }
+}
+
 
   header h1 {
     font-family: 'Libre Baskerville', serif;

@@ -29,9 +29,17 @@
     background: var(--header-color);
     color: var(--white);
     padding: 3rem 1rem;
+    position: relative;
     text-align: center;
   }
-  
+  .header-logo-fixed {
+  position: absolute;
+  top: 2.2rem;
+  left: 4rem;
+  width: 125px;
+  height: auto;
+}
+
   header h1 {
     font-family: 'Libre Baskerville', serif;
     margin-bottom: 0.5rem;

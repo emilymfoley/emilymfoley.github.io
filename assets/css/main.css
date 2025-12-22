@@ -2844,7 +2844,7 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
-			
+
 .map-container {
   display: flex;
   justify-content: center;
@@ -2860,6 +2860,10 @@ input, select, textarea {
   fill: rgb(216, 69, 69);
 }
 
+#header,
+#header * {
+  pointer-events: auto !important;
+}
 
 
 

@@ -114,4 +114,14 @@
 
 			});
 
+			function enableHeaderLinks() {
+  document.querySelectorAll('#header a').forEach(a => {
+    a.style.pointerEvents = 'auto';
+  });
+}
+
+window.addEventListener('load', enableHeaderLinks);
+window.addEventListener('hashchange', enableHeaderLinks);
+
+
 })(jQuery);

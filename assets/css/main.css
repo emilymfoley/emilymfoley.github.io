@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #201313;
+		background: #1f1514;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #d0b8b8;
+		color: #cbc6c6;
 		font-family: "Berkeley Mono", monospace, serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -122,7 +122,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #fffefe;
-		font-weight: 400;
+		font-weight: 550;
 	}
 
 	em, i {
@@ -1955,7 +1955,7 @@ input, select, textarea {
 			}
 
 			.image.avatar img {
-				border-radius: 0%;
+				border-radius: 100%;
 				width: 100%;
 			}
 
@@ -2054,14 +2054,14 @@ input, select, textarea {
 
 /* Hover */
 #nav a:hover {
-  border-color: #814949;
-  color: #884c4c !important;
+  border-color: #7b8192;
+  color: #7b8192 !important;
 }
 
 /* Active */
 #nav a.active {
-  background-color: #6c3838;
-  border-color: #6c3838;
+  background-color: #7b8192;
+  border-color: #7b8192;
   color: #ffffff !important;
 }
 
@@ -2077,6 +2077,9 @@ input, select, textarea {
   }
 }
 
+#main #nav {
+  margin-top: -2em;   /* pull it upward */
+}
 
 
 /* Labeled Icons */
@@ -2461,7 +2464,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/stars.jpg");
+		background-image: url("images/overlay.png"), url("../../images/stars5.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;

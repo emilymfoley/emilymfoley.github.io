@@ -72,11 +72,12 @@ input, select, textarea {
 	appearance: none;
 }
 
-.image.fit img {
-    max-width: 600px;
-    margin: 0 auto;
-}
 
+#header .image.avatar img {
+
+    border-radius: 0; /* <-- square */
+
+}
 
 
 

@@ -72,6 +72,13 @@ input, select, textarea {
 	appearance: none;
 }
 
+.image.fit img {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+
 
 /* Basic */
 
@@ -164,10 +171,7 @@ input, select, textarea {
 	}
 
 
-	.research-image img {
-		width: 70%;   /* <-- shrink image to 50% of its original width */
-		height: auto; /* keeps proportions */
-	}
+
 
 
 	h1 { /* phd student text below icon*/
@@ -2294,32 +2298,7 @@ input, select, textarea {
 
 
 /* Avatar image — CLEAN + SIMPLE + EASY TO CONTROL */
-		.image.avatar {
-			display: block;
-			margin: 0 auto 1em auto;
-			text-align: center;
-		}
-
-		#header .image.avatar {
-			width: 10rem;
-			height: 10rem;
-			margin: 0 auto 1em auto;
-		}
-
-		#header .image.avatar img {
-			width: 100%;
-			height: 100%;
-			border-radius: 100%;
-			object-fit: cover;
-		}
-
-		.image.fit img {
-			max-width: 600px;
-			margin: 0 auto;
-			display: block;
-		}
-
-
+		
 
 
 
@@ -2834,14 +2813,7 @@ input, select, textarea {
 			font-weight: 300;
 		}
 
-		#header .image.avatar {
 		
-			text-align: center;
-			display: block;           /* ensures it can be centered */
-			margin: -2em auto 1em auto; 
-			border: none !important;
-		
-		}
 
 
 /* Reset list */

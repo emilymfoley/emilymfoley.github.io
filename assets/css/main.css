@@ -73,11 +73,6 @@ input, select, textarea {
 }
 
 
-#header .image.avatar img {
-
-    border-radius: 0; /* <-- square */
-
-}
 
 
 
@@ -3450,5 +3445,10 @@ input, select, textarea {
 				margin-left: 0;
 				padding-left: 0;
 			}
+
+			#header .image.avatar img {
+    border-radius: 0 !important;
+}
+
 
 	}

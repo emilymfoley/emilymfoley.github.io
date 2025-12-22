@@ -333,20 +333,20 @@ input, select, textarea {
 }
 
 .nm {
-    fill: rgb(216, 209, 69);   /* any color */
-    stroke: rgb(216, 209, 69);   /* optional */
+    fill: rgb(216, 69, 69);   /* any color */
+    stroke: rgb(216, 69, 69);   /* optional */
     stroke-width: 1px;
 }
 
 .az {
-    fill: rgb(216, 209, 69);   /* any color */
-    stroke: rgb(216, 209, 69);   /* optional */
+    fill: rgb(216, 69, 69);   /* any color */
+    stroke: rgb(216, 69, 69);   /* optional */
     stroke-width: 1px;
 }
 
 .mn {
-    fill: rgb(216, 209, 69);   /* any color */
-    stroke: rgb(216, 209, 69);  /* optional */
+    fill: rgb(216, 69, 69);   /* any color */
+    stroke: rgb(216, 69, 69);   /* optional */
     stroke-width: 1px;
 }
 
@@ -535,8 +535,8 @@ input, select, textarea {
 
 
 .nc {
-    fill: rgb(216, 209, 69);   /* any color */
-    stroke:rgb(216, 209, 69);   /* optional */
+    fill: rgb(216, 69, 69);   /* any color */
+    stroke: rgb(216, 69, 69);   /* optional */
     stroke-width: 1px;
 }
 

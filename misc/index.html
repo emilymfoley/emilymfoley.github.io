@@ -6,10 +6,10 @@
 -->
 <html>
 	<head>
-		<title>Strata by HTML5 UP</title>
+		<title>Emily M. Foley</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
 	</head>
 	<body class="is-preload">
 
@@ -17,7 +17,7 @@
 			<header id="header">
 			<div class="inner">
 				<span class="image avatar">
-				<img src="images/img.jpg" alt="Avatar">
+				<img src="../images/img.jpg" alt="Avatar">
 				</span>
 				<h4></h4>
 
@@ -34,11 +34,11 @@
 			<div id="main">
 				<nav id="nav">
 						<ul>
-							<li><a href="index.html">about</a></li>
-							<li><a href="research.html">Research</a></li>
-							<li><a href="pubs.html">Publications</a></li>
-							<li><a href="files/Emily_Foley_CV_2026.pdf" target="_blank" rel="noopener noreferrer">CV</a></li>
-							<li><a href="states.html">Misc.</a></li>
+							<li><a href="/">About</a></li>
+							<li><a href="/research/">Research</a></li>
+							<li><a href="/pubs/">Publications</a></li>
+							<li><a href="/files/Emily_Foley_CV_2026.pdf" target="_blank" rel="noopener noreferrer">CV</a></li>
+							<li><a href="/misc/">Misc.</a></li>
 						</ul>
 					</nav> 
 
@@ -54,14 +54,13 @@
 					
 	
 
-    <!-- Your inline SVG map -->
     <div class="map-container">
+        
 
-        <svg xmlns="http://www.w3.org/2000/svg" width="959" height="593">
-        <title>Blank map of the United States, territories not included</title>
+        <svg class="us-map" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" role="img" aria-label="US states visited">
         <defs>
         <style type="text/css">
-        .state {fill:#D0D0D0}                        /* default color for all states not specified below */
+                            /* default color for all states not specified below */
         .borders {stroke:#FFFFFF; stroke-width:1}    /* color and width of borders between states */
         .dccircle {display:yes}                      /* set display to yes to show the circle for the District of Columbia, or none to hide it */
         .separator1 {stroke:#B0B0B0; stroke-width:2} /* color and width of lines around Alaska and Hawaii */
@@ -71,7 +70,12 @@
         .ca,.de {fill:#FF0000}
         In this example, Kansas, Montana and Pennsylvania are colored blue, and California and Delaware are colored red.
         Place this code in the empty space below. */
+        .state { fill:#D0D0D0 }
 
+        .mn, .nm, .az , .ca, .wa , .sd, .nv, .ut, .mo, .tn, .nc,
+        .co, .tx , .ia, .ny, .va, .nc, .ga, .al, .fl, .wv, .la, .ne, .ks, .ok, .wy, .wi, .il, .in, .ky, .oh,
+        .mi, .pa, .sc, .hi
+        { fill:rgb(230, 72, 72) }
 
 
         </style>
@@ -363,6 +367,9 @@
 		</header>
 
           <p>I have a 3 year old Siamese cat named Lucy that I adopted in Tucson.</p>
+          <span class="image lanl">
+						<img src="../images/lucy1.jpg">
+		</span>
 
     </div>
 

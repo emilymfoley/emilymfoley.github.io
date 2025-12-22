@@ -72,6 +72,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+.image.fit img {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 
 
 
@@ -3445,8 +3450,5 @@ input, select, textarea {
 				margin-left: 0;
 				padding-left: 0;
 			}
-
-
-
 
 	}

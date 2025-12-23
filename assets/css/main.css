@@ -2124,7 +2124,7 @@ input, select, textarea {
 }
 
 #main #nav {
-  margin-top: -1em;   /* pull it upward */
+  margin-top: -3em;   /* pull it upward */
 }
 
 
@@ -2565,7 +2565,7 @@ input, select, textarea {
 /* Increase space between header and nav on mobile */
 @media screen and (max-width: 736px) {
   #nav {
-    margin-top: 20em;   /* increase as needed */
+    margin-top: 50em;   /* increase as needed */
   }
 }
 

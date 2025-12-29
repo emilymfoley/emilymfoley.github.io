@@ -2566,7 +2566,12 @@ input, select, textarea {
   #nav {
     margin-top: 10em;   /* increase as needed */
 
-
+/* Mobile: undo the pull-up */
+@media screen and (max-width: 736px) {
+  #main #nav {
+    margin-top: 0;
+  }
+}
 
 /* Footer */
 

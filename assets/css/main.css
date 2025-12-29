@@ -2562,12 +2562,10 @@ input, select, textarea {
 		}
 
 
-/* Increase space between header and nav on mobile */
-@media screen and (max-width: 736px) {
+/* Increase space between header and nav on mobile @media screen and (max-width: 736px) {
   #nav {
     margin-top: 10em;   /* increase as needed */
-  }
-}
+
 
 
 /* Footer */
